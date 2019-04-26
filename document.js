@@ -22,9 +22,17 @@ class WDocument extends cutil.mixin(document.WDocument, serializable) {
 		let {window} = new JSDOM(text, {contentType});
 		this.window = window;
 	}
+	toString() {
+		let text = this.preamble;
+		if(this.root) {
+			text += this.root.string;
+		}
+		return text;
+	}
 }
 cutil.extend(WDocument.prototype, {
 	defaultMime: "application/xml",
+	preamble: "<!DOCTYPE html>",
 });
 
 module.exports = {WDocument};
