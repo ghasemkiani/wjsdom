@@ -26,7 +26,7 @@
     "mocha": "^6.1.4"
   },
   "dependencies": {
-    "@ghasemkiani/commonbase": "github:ghasemkiani/commonbase",
+    "@ghasemkiani/base": "github:ghasemkiani/base",
     "@ghasemkiani/wdom": "gitlab:ghasemkiani/wdom",
     "jsdom": "^15.0.0"
   }

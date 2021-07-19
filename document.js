@@ -2,8 +2,8 @@
 
 const {JSDOM} = require("jsdom");
 
-const {cutil} = require("@ghasemkiani/commonbase/cutil");
-const {serializable} = require("@ghasemkiani/commonbase/serializable");
+const {cutil} = require("@ghasemkiani/base/cutil");
+const {serializable} = require("@ghasemkiani/base/serializable");
 const document = require("@ghasemkiani/wdom/document");
 
 class WDocument extends cutil.mixin(document.WDocument, serializable) {
