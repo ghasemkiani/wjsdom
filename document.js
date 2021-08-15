@@ -1,12 +1,12 @@
 //	@ghasemkiani/wjsdom/document
 
-const {JSDOM} = require("jsdom");
+import {JSDOM} from "jsdom";
 
-const {cutil} = require("@ghasemkiani/base/cutil");
-const {serializable} = require("@ghasemkiani/base/serializable");
-const document = require("@ghasemkiani/wdom/document");
+import {cutil} from "@ghasemkiani/base";
+import {serializable} from "@ghasemkiani/base";
+import {WDocument as WDocumentBase} from "@ghasemkiani/wdom";
 
-class WDocument extends cutil.mixin(document.WDocument, serializable) {
+class WDocument extends cutil.mixin(WDocumentBase, serializable) {
 	getWindow() {
 		let contentType = this.mime;
 		let text = `<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"></html>`;
@@ -35,4 +35,4 @@ cutil.extend(WDocument.prototype, {
 	preamble: "<!DOCTYPE html>",
 });
 
-module.exports = {WDocument};
+export {WDocument};

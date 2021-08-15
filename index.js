@@ -1,5 +1,5 @@
 //	@ghasemkiani/wjsdom
 
-const document = require("@ghasemkiani/wjsdom/document");
+import {WDocument} from "./document.js";
 
-module.exports = {document};
+export {WDocument};

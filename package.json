@@ -1,7 +1,8 @@
 {
   "name": "@ghasemkiani/wjsdom",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A wrapped DOM utility for JSDOM",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -27,7 +28,7 @@
   },
   "dependencies": {
     "@ghasemkiani/base": "github:ghasemkiani/base",
-    "@ghasemkiani/wdom": "gitlab:ghasemkiani/wdom",
+    "@ghasemkiani/wdom": "github:ghasemkiani/wdom",
     "jsdom": "^15.0.0"
   }
 }
