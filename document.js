@@ -3,10 +3,9 @@
 import {JSDOM} from "jsdom";
 
 import {cutil} from "@ghasemkiani/base";
-import {serializable} from "@ghasemkiani/base";
 import {WDocument as WDocumentBase} from "@ghasemkiani/wdom";
 
-class WDocument extends cutil.mixin(WDocumentBase, serializable) {
+class WDocument extends WDocumentBase {
 	getWindow() {
 		let contentType = this.mime;
 		let text = `<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"></html>`;
