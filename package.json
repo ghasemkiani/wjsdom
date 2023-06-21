@@ -1,1 +1,25 @@
-{"name":"@ghasemkiani/wjsdom","version":"2.1.1","description":"A wrapped DOM utility for JSDOM","type":"module","main":"index.js","scripts":{"test":"mocha"},"repository":{"type":"git","url":"git+https://gitlab.com/ghasemkiani/wjsdom.git"},"keywords":["javascript","nodejs","dom","jsdom"],"author":"Ghasem Kiani","license":"MIT","bugs":{"url":"https://gitlab.com/ghasemkiani/wjsdom/issues"},"homepage":"https://gitlab.com/ghasemkiani/wjsdom#readme","devDependencies":{"mocha":"^6.1.4"},"dependencies":{"@ghasemkiani/base":"github:ghasemkiani/base","@ghasemkiani/wdom":"github:ghasemkiani/wdom","jsdom":"^15.0.0"}}
+{
+	"name": "@ghasemkiani/wjsdom",
+	"version": "2.1.1",
+	"description": "A wrapped DOM utility for JSDOM",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ghasemkiani/wjsdom.git"
+	},
+	"keywords": ["javascript", "nodejs", "dom", "jsdom"],
+	"author": "Ghasem Kiani",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ghasemkiani/wjsdom/issues"
+	},
+	"homepage": "https://github.com/ghasemkiani/wjsdom#readme",
+	"devDependencies": {},
+	"dependencies": {
+		"@ghasemkiani/base": "github:ghasemkiani/base",
+		"@ghasemkiani/wdom": "github:ghasemkiani/wdom",
+		"jsdom": "^15.0.0"
+	}
+}

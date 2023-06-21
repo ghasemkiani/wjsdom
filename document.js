@@ -6,6 +6,12 @@ import {cutil} from "@ghasemkiani/base";
 import {WDocument as WDocumentBase} from "@ghasemkiani/wdom";
 
 class WDocument extends WDocumentBase {
+	static {
+		cutil.extend(this.prototype, {
+			defaultMime: "application/xml",
+			preamble: "<!DOCTYPE html>",
+		});
+	}
 	getWindow() {
 		let contentType = this.mime;
 		let text = `<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"></html>`;
@@ -29,9 +35,5 @@ class WDocument extends WDocumentBase {
 		return text;
 	}
 }
-cutil.extend(WDocument.prototype, {
-	defaultMime: "application/xml",
-	preamble: "<!DOCTYPE html>",
-});
 
 export {WDocument};

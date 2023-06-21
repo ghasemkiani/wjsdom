@@ -1,5 +1,3 @@
 //	@ghasemkiani/wjsdom
 
-import {WDocument} from "./document.js";
-
-export {WDocument};
+export * from "./document.js";
