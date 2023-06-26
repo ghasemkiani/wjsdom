@@ -1,6 +1,6 @@
 {
 	"name": "@ghasemkiani/wjsdom",
-	"version": "2.1.1",
+	"version": "3.0.0",
 	"description": "A wrapped DOM utility for JSDOM",
 	"type": "module",
 	"main": "index.js",
@@ -9,17 +9,21 @@
 		"type": "git",
 		"url": "git+https://github.com/ghasemkiani/wjsdom.git"
 	},
-	"keywords": ["javascript", "nodejs", "dom", "jsdom"],
+	"keywords": [
+		"javascript",
+		"nodejs",
+		"dom",
+		"jsdom"
+	],
 	"author": "Ghasem Kiani",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/ghasemkiani/wjsdom/issues"
 	},
 	"homepage": "https://github.com/ghasemkiani/wjsdom#readme",
-	"devDependencies": {},
 	"dependencies": {
 		"@ghasemkiani/base": "github:ghasemkiani/base",
 		"@ghasemkiani/wdom": "github:ghasemkiani/wdom",
-		"jsdom": "^15.0.0"
+		"jsdom": "^22.1.0"
 	}
 }
