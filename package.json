@@ -1,29 +1,37 @@
 {
-	"name": "@ghasemkiani/wjsdom",
-	"version": "3.0.0",
-	"description": "A wrapped DOM utility for JSDOM",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ghasemkiani/wjsdom.git"
-	},
-	"keywords": [
-		"javascript",
-		"nodejs",
-		"dom",
-		"jsdom"
-	],
-	"author": "Ghasem Kiani",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/ghasemkiani/wjsdom/issues"
-	},
-	"homepage": "https://github.com/ghasemkiani/wjsdom#readme",
-	"dependencies": {
-		"@ghasemkiani/base": "github:ghasemkiani/base",
-		"@ghasemkiani/wdom": "github:ghasemkiani/wdom",
-		"jsdom": "^22.1.0"
-	}
+  "name": "@ghasemkiani/wjsdom",
+  "version": "3.0.0",
+  "description": "A wrapped DOM utility for JSDOM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghasemkiani/wjsdom.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "dom",
+    "jsdom"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghasemkiani/wjsdom/issues"
+  },
+  "homepage": "https://github.com/ghasemkiani/wjsdom#readme",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base",
+    "@ghasemkiani/wdom": "github:ghasemkiani/wdom",
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "prettier": "^3.3.3"
+  }
 }
